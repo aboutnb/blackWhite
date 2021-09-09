@@ -1,0 +1,340 @@
+{
+  "keys": "F:\\egg\\blackWhite\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "F:\\egg\\blackWhite\\config\\config.default.js",
+      "port": "F:\\egg\\blackWhite\\config\\config.default.js",
+      "user": "F:\\egg\\blackWhite\\config\\config.default.js",
+      "password": "F:\\egg\\blackWhite\\config\\config.default.js",
+      "database": "F:\\egg\\blackWhite\\config\\config.default.js"
+    },
+    "app": "F:\\egg\\blackWhite\\config\\config.default.js",
+    "agent": "F:\\egg\\blackWhite\\config\\config.default.js",
+    "default": {
+      "database": "F:\\egg\\blackWhite\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\egg\\blackWhite\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "middleware": "F:\\egg\\blackWhite\\config\\config.default.js",
+  "errorHandler": {
+    "enable": "F:\\egg\\blackWhite\\config\\config.default.js",
+    "match": "F:\\egg\\blackWhite\\config\\config.default.js"
+  },
+  "cors": {
+    "origin": "F:\\egg\\blackWhite\\config\\config.default.js",
+    "allowMethods": "F:\\egg\\blackWhite\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "F:\\egg\\blackWhite\\config\\config.default.js",
+      "type": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "ipExceptionList": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "root": "F:\\egg\\blackWhite\\config\\config.default.js",
+    "cache": "F:\\egg\\blackWhite\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\egg\\blackWhite\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "F:\\egg\\blackWhite\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "F:\\egg\\blackWhite\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "F:\\egg\\blackWhite\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\egg\\blackWhite\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\egg\\blackWhite\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\egg\\blackWhite\\node_modules\\egg-session\\config\\config.default.js",
+    "logValue": "F:\\egg\\blackWhite\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "F:\\egg\\blackWhite\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\egg\\blackWhite\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\egg\\blackWhite\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\egg\\blackWhite\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\egg\\blackWhite\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\egg\\blackWhite\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\egg\\blackWhite\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\egg\\blackWhite\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\egg\\blackWhite\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\egg\\blackWhite\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\egg\\blackWhite\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\egg\\blackWhite\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\egg\\blackWhite\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "F:\\egg\\blackWhite\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "allowArrayField": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js",
+      "disable": "F:\\egg\\blackWhite\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideIgnore": "F:\\egg\\blackWhite\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\egg\\blackWhite\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\egg\\blackWhite\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "F:\\egg\\blackWhite\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "F:\\egg\\blackWhite\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "F:\\egg\\blackWhite\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "F:\\egg\\blackWhite\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "F:\\egg\\blackWhite\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "private": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "crypto": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "md5": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "nodemailer": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "outils": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "utility": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "dev": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "debug": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "test": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "cov": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "lint": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "ci": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "autod": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "main": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "directories": {
+      "test": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "port": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\egg\\blackWhite\\node_modules\\egg\\config\\config.default.js"
+}

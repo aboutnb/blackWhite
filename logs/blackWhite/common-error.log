@@ -1,0 +1,1355 @@
+2021-09-06 02:02:48,699 ERROR 16212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16212
+hostname: ABOUTNB
+
+2021-09-06 02:26:23,017 ERROR 14124 [-/127.0.0.1/-/83ms POST /admin] nodejs.ReferenceError: utility is not defined
+    at AdminController.postAdmin (F:\egg\blackWhite\app\controller\admin.js:25:24)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14124
+hostname: ABOUTNB
+
+2021-09-06 02:26:57,702 ERROR 16924 [-/127.0.0.1/-/104ms POST /admin] nodejs.ReferenceError: utility is not defined
+    at AdminController.postAdmin (F:\egg\blackWhite\app\controller\admin.js:25:24)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16924
+hostname: ABOUTNB
+
+2021-09-06 02:27:47,441 ERROR 14648 [-/127.0.0.1/-/127ms POST /admin] nodejs.ReferenceError: adminPwd is not defined
+    at AdminController.postAdmin (F:\egg\blackWhite\app\controller\admin.js:27:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14648
+hostname: ABOUTNB
+
+2021-09-06 03:03:39,277 ERROR 14768 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14768
+hostname: ABOUTNB
+
+2021-09-06 03:15:44,866 ERROR 16708 [-/127.0.0.1/-/160ms POST /register] nodejs.TypeError: Cannot read property 'affectedRows' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16708
+hostname: ABOUTNB
+
+2021-09-06 03:31:35,921 ERROR 14104 [-/127.0.0.1/-/145ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14104
+hostname: ABOUTNB
+
+2021-09-06 03:32:30,151 ERROR 13096 [-/127.0.0.1/-/187ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 13096
+hostname: ABOUTNB
+
+2021-09-06 03:33:40,855 ERROR 16700 [-/127.0.0.1/-/187ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 16700
+hostname: ABOUTNB
+
+2021-09-06 03:36:55,307 ERROR 3476 [-/127.0.0.1/-/158ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 3476
+hostname: ABOUTNB
+
+2021-09-06 03:38:15,148 ERROR 11096 [-/127.0.0.1/-/225ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:60:34)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11096
+hostname: ABOUTNB
+
+2021-09-06 03:43:11,984 ERROR 15984 [-/127.0.0.1/-/235ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:60:25)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15984
+hostname: ABOUTNB
+
+2021-09-06 03:50:52,476 ERROR 148 [-/127.0.0.1/-/104ms POST /register] nodejs.TypeError: Cannot read property 'oldUser' of undefined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:60:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 148
+hostname: ABOUTNB
+
+2021-09-06 03:52:51,773 ERROR 14116 [-/127.0.0.1/-/100ms POST /register] nodejs.TypeError: Cannot read property 'oldUser' of undefined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:60:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14116
+hostname: ABOUTNB
+
+2021-09-06 03:55:05,864 ERROR 14380 [-/127.0.0.1/-/87ms POST /register] nodejs.TypeError: Cannot read property 'oldUser' of undefined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:60:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (F:\egg\blackWhite\node_modules\koa-bodyparser\index.js:95:5)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14380
+hostname: ABOUTNB
+
+2021-09-06 03:57:05,441 ERROR 11688 [-/127.0.0.1/-/84ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11688
+hostname: ABOUTNB
+
+2021-09-06 03:58:29,322 ERROR 14576 [-/127.0.0.1/-/104ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14576
+hostname: ABOUTNB
+
+2021-09-06 03:59:17,503 ERROR 7704 [-/127.0.0.1/-/107ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 7704
+hostname: ABOUTNB
+
+2021-09-06 04:00:55,743 ERROR 15984 [-/127.0.0.1/-/106ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 15984
+hostname: ABOUTNB
+
+2021-09-06 04:01:58,839 ERROR 14344 [-/127.0.0.1/-/115ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 14344
+hostname: ABOUTNB
+
+2021-09-06 04:03:33,452 ERROR 14344 nodejs.ServerNoResponseError: server 127.0.0.1:63289 no response in 20014ms, maybe the socket is end on the other side. (address: 127.0.0.1:63289)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 14344
+hostname: ABOUTNB
+
+2021-09-06 04:03:56,479 ERROR 14344 [-/undefined/-/90ms POST /register] nodejs.ReferenceError: result is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:49:22)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:20)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+headerSent: true
+pid: 14344
+hostname: ABOUTNB
+
+2021-09-06 04:03:56,386 ERROR 17136 nodejs.ClusterClientNoResponseError: client no response in 62950ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17136
+hostname: ABOUTNB
+
+2021-09-06 04:03:58,426 ERROR 17136 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17136
+hostname: ABOUTNB
+
+2021-09-06 04:24:41,208 ERROR 16548 [-/127.0.0.1/-/105ms POST /register] nodejs.TypeError: Cannot read property 'oldUser' of undefined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:61:16)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+
+pid: 16548
+hostname: ABOUTNB
+
+2021-09-06 04:27:23,534 ERROR 17312 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17312
+hostname: ABOUTNB
+
+2021-09-06 08:39:35,833 ERROR 17312 nodejs.ClusterClientNoResponseError: client no response in 3204276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 17312
+hostname: ABOUTNB
+
+2021-09-06 21:36:36,048 ERROR 17228 [-/127.0.0.1/-/12ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 17228
+hostname: ABOUTNB
+
+2021-09-06 21:36:40,868 ERROR 17228 [-/127.0.0.1/-/2ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 17228
+hostname: ABOUTNB
+
+2021-09-06 21:36:49,148 ERROR 996 [-/127.0.0.1/-/16ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:50,189 ERROR 996 [-/127.0.0.1/-/2ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:51,115 ERROR 996 [-/127.0.0.1/-/1ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:51,884 ERROR 996 [-/127.0.0.1/-/0ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:52,584 ERROR 996 [-/127.0.0.1/-/1ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:53,205 ERROR 996 [-/127.0.0.1/-/1ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:53,390 ERROR 996 [-/127.0.0.1/-/1ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:53,635 ERROR 996 [-/127.0.0.1/-/1ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:53,837 ERROR 996 [-/127.0.0.1/-/0ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:54,070 ERROR 996 [-/127.0.0.1/-/0ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:36:54,352 ERROR 996 [-/127.0.0.1/-/0ms POST /sendCode] nodejs.RangeError: toString() radix argument must be between 2 and 36
+    at Number.toString (<anonymous>)
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:45:32)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:29:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+
+pid: 996
+hostname: ABOUTNB
+
+2021-09-06 21:48:10,882 ERROR 9492 nodejs.ServerNoResponseError: server 127.0.0.1:58527 no response in 20012ms, maybe the socket is end on the other side. (address: 127.0.0.1:58527)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 9492
+hostname: ABOUTNB
+
+2021-09-06 22:52:00,848 ERROR 15556 nodejs.ServerNoResponseError: server 127.0.0.1:64647 no response in 20010ms, maybe the socket is end on the other side. (address: 127.0.0.1:64647)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 15556
+hostname: ABOUTNB
+
+2021-09-06 22:52:32,215 ERROR 13680 nodejs.ClusterClientNoResponseError: client no response in 71381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 13680
+hostname: ABOUTNB
+
+2021-09-06 23:01:37,339 ERROR 13680 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13680
+hostname: ABOUTNB
+
+2021-09-06 23:14:07,163 ERROR 13680 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13680
+hostname: ABOUTNB
+
+2021-09-06 23:20:56,753 ERROR 13988 [-/127.0.0.1/-/184ms POST /register] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'uemail' cannot be null
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`uname`, `upwd`, `uemail`) VALUES('test11', '4061863caf7f28c0b0346719e764d561', NULL)
+code: "ER_BAD_NULL_ERROR"
+errno: 1048
+sqlMessage: "Column 'uemail' cannot be null"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `user`(`uname`, `upwd`, `uemail`) VALUES('test11', '4061863caf7f28c0b0346719e764d561', NULL)"
+name: "ER_BAD_NULL_ERRORError"
+pid: 13988
+hostname: ABOUTNB
+
+2021-09-06 23:34:53,616 ERROR 13848 [-/127.0.0.1/-/122ms POST /register] nodejs.TypeError: Cannot read property 'uname' of null
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:46:18)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:56:20)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 13848
+hostname: ABOUTNB
+
+2021-09-07 01:11:16,963 ERROR 14316 [-/127.0.0.1/-/16ms POST /register] nodejs.TypeError: ctx.service.user.getEmail is not a function
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:46)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\blackWhite\node_modules\koa-compose\index.js:36:12
+
+pid: 14316
+hostname: ABOUTNB
+
+2021-09-07 01:11:18,385 ERROR 14316 [-/127.0.0.1/-/1ms POST /register] nodejs.TypeError: ctx.service.user.getEmail is not a function
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:57:46)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\blackWhite\node_modules\koa-compose\index.js:36:12
+
+pid: 14316
+hostname: ABOUTNB
+
+2021-09-07 01:11:39,860 ERROR 13280 [-/127.0.0.1/-/352ms POST /register] nodejs.ReferenceError: resUemail is not defined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:59:17)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+
+pid: 13280
+hostname: ABOUTNB
+
+2021-09-07 01:45:50,326 ERROR 16076 [-/127.0.0.1/-/92ms POST /register] nodejs.ReferenceError: email is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:52:46)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:22)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 16076
+hostname: ABOUTNB
+
+2021-09-07 01:45:56,844 ERROR 16076 [-/127.0.0.1/-/93ms POST /register] nodejs.ReferenceError: email is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:52:46)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:22)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 16076
+hostname: ABOUTNB
+
+2021-09-07 01:52:03,128 ERROR 14736 nodejs.ServerNoResponseError: server 127.0.0.1:57034 no response in 20005ms, maybe the socket is end on the other side. (address: 127.0.0.1:57034)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 14736
+hostname: ABOUTNB
+
+2021-09-07 01:54:45,550 ERROR 14264 nodejs.ClusterClientNoResponseError: client no response in 74116ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 14264
+hostname: ABOUTNB
+
+2021-09-07 01:57:45,894 ERROR 1264 nodejs.ServerNoResponseError: server 127.0.0.1:51632 no response in 20005ms, maybe the socket is end on the other side. (address: 127.0.0.1:51632)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 1264
+hostname: ABOUTNB
+
+2021-09-07 01:58:46,303 ERROR 18420 nodejs.ClusterClientNoResponseError: client no response in 100420ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18420
+hostname: ABOUTNB
+
+2021-09-07 02:02:47,678 ERROR 17444 nodejs.ServerNoResponseError: server 127.0.0.1:61690 no response in 20009ms, maybe the socket is end on the other side. (address: 127.0.0.1:61690)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 17444
+hostname: ABOUTNB
+
+2021-09-07 02:04:15,640 ERROR 18876 nodejs.ClusterClientNoResponseError: client no response in 127976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18876
+hostname: ABOUTNB
+
+2021-09-07 02:09:47,525 ERROR 14836 nodejs.ServerNoResponseError: server 127.0.0.1:61690 no response in 20004ms, maybe the socket is end on the other side. (address: 127.0.0.1:61690)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 14836
+hostname: ABOUTNB
+
+2021-09-07 02:10:09,259 ERROR 18876 nodejs.ClusterClientNoResponseError: client no response in 61752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18876
+hostname: ABOUTNB
+
+2021-09-07 02:10:11,595 ERROR 18876 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18876
+hostname: ABOUTNB
+
+2021-09-07 02:11:16,504 ERROR 15564 nodejs.ServerNoResponseError: server 127.0.0.1:61690 no response in 20003ms, maybe the socket is end on the other side. (address: 127.0.0.1:61690)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 15564
+hostname: ABOUTNB
+
+2021-09-07 02:28:03,777 ERROR 15852 [-/127.0.0.1/-/183ms POST /register] nodejs.ReferenceError: cookiesCode is not defined
+    at HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:59:34)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (F:\egg\blackWhite\node_modules\koa-session\index.js:41:7)
+
+pid: 15852
+hostname: ABOUTNB
+
+2021-09-07 02:31:08,070 ERROR 18876 nodejs.ClusterClientNoResponseError: client no response in 61882ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 18876
+hostname: ABOUTNB
+
+2021-09-07 02:31:08,073 ERROR 11320 nodejs.ServerNoResponseError: server 127.0.0.1:61690 no response in 40008ms, maybe the socket is end on the other side. (address: 127.0.0.1:61690)
+    at Timeout._onTimeout (F:\egg\blackWhite\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 11320
+hostname: ABOUTNB
+
+2021-09-07 03:27:27,215 ERROR 15624 [-/127.0.0.1/-/144ms POST /register] nodejs.ReferenceError: email is not defined
+    at UserService.userReg (F:\egg\blackWhite\app\service\user.js:64:30)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async HomeController.postReg (F:\egg\blackWhite\app\controller\home.js:58:22)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 15624
+hostname: ABOUTNB
+
+2021-09-07 13:47:32,502 ERROR 19832 [-/127.0.0.1/-/12ms POST /sendCode] nodejs.ReferenceError: html is not defined
+    at ToolService.sendMail (F:\egg\blackWhite\app\service\email.js:78:9)
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:30:45)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+
+pid: 19832
+hostname: ABOUTNB
+
+2021-09-07 15:07:15,815 ERROR 14988 [-/127.0.0.1/-/12ms POST /sendcode] nodejs.ReferenceError: uemail is not defined
+    at EmailController.SendMail (F:\egg\blackWhite\app\controller\email.js:31:12)
+    at Object.callFn (F:\egg\blackWhite\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\blackWhite\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (F:\egg\blackWhite\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (F:\egg\blackWhite\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\blackWhite\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\blackWhite\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (F:\egg\blackWhite\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\blackWhite\node_modules\koa-compose\index.js:36:12
+
+pid: 14988
+hostname: ABOUTNB
+
+2021-09-07 16:28:48,469 ERROR 14876 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14876
+hostname: ABOUTNB
+
+2021-09-07 16:37:43,725 ERROR 14876 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14876
+hostname: ABOUTNB
+
+2021-09-08 00:15:51,815 ERROR 1480 [-/127.0.0.1/-/120ms POST /waresInsert] nodejs.ER_NO_REFERENCED_ROW_2Error: ER_NO_REFERENCED_ROW_2: Cannot add or update a child row: a foreign key constraint fails (`blackwhite`.`wares`, CONSTRAINT `classify_id` FOREIGN KEY (`classify_id`) REFERENCES `classify` (`classify_id`))
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: INSERT INTO `wares`(`wares_name`, `wares_cover`, `wares_title`, `wares_introduction`) VALUES('名称', '图片', '标题', '简介')
+code: "ER_NO_REFERENCED_ROW_2"
+errno: 1452
+sqlMessage: "Cannot add or update a child row: a foreign key constraint fails (`blackwhite`.`wares`, CONSTRAINT `classify_id` FOREIGN KEY (`classify_id`) REFERENCES `classify` (`classify_id`))"
+sqlState: "23000"
+index: 0
+sql: "INSERT INTO `wares`(`wares_name`, `wares_cover`, `wares_title`, `wares_introduction`) VALUES('名称', '图片', '标题', '简介')"
+name: "ER_NO_REFERENCED_ROW_2Error"
+pid: 1480
+hostname: ABOUTNB
+
+2021-09-08 00:22:45,983 ERROR 11352 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11352
+hostname: ABOUTNB
+
+2021-09-08 00:56:56,141 ERROR 11324 [-/127.0.0.1/-/128ms POST /waresdelete] nodejs.ReferenceError: ctx is not defined
+    at wController.waresDelete (F:\egg\blackWhite\app\service\wares.js:52:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async WaresController.postWaresDelete (F:\egg\blackWhite\app\controller\wares.js:24:20)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 11324
+hostname: ABOUTNB
+
+2021-09-08 02:06:33,150 ERROR 11796 [-/127.0.0.1/-/122ms POST /waresselect] nodejs.ReferenceError: ctx is not defined
+    at wController.waresSelect (F:\egg\blackWhite\app\service\wares.js:145:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async WaresController.postWaresSelect (F:\egg\blackWhite\app\controller\wares.js:49:24)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 11796
+hostname: ABOUTNB
+
+2021-09-08 02:07:03,614 ERROR 12516 [-/127.0.0.1/-/123ms POST /waresselect] nodejs.ReferenceError: ctx is not defined
+    at wController.waresSelect (F:\egg\blackWhite\app\service\wares.js:145:13)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async WaresController.postWaresSelect (F:\egg\blackWhite\app\controller\wares.js:50:24)
+    at async errorHandler (F:\egg\blackWhite\app\middleware\error_handler.js:16:9)
+    at async anther (F:\egg\blackWhite\app\middleware\anther.js:4:9)
+    at async F:\egg\blackWhite\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (F:\egg\blackWhite\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 12516
+hostname: ABOUTNB
+
+2021-09-08 02:17:05,357 ERROR 9692 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9692
+hostname: ABOUTNB
+
+2021-09-08 02:18:44,010 ERROR 8556 [-/127.0.0.1/-/109ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 8556
+hostname: ABOUTNB
+
+2021-09-08 02:20:59,824 ERROR 14132 [-/127.0.0.1/-/109ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 14132
+hostname: ABOUTNB
+
+2021-09-08 02:24:32,667 ERROR 13728 [-/127.0.0.1/-/106ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 13728
+hostname: ABOUTNB
+
+2021-09-08 02:24:38,310 ERROR 13728 [-/127.0.0.1/-/91ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 13728
+hostname: ABOUTNB
+
+2021-09-08 02:24:50,261 ERROR 13728 [-/127.0.0.1/-/93ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 13728
+hostname: ABOUTNB
+
+2021-09-08 02:24:59,080 ERROR 13728 [-/127.0.0.1/-/100ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 13728
+hostname: ABOUTNB
+
+2021-09-08 02:27:50,271 ERROR 1892 [-/127.0.0.1/-/91ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 1892
+hostname: ABOUTNB
+
+2021-09-08 02:27:54,405 ERROR 1892 [-/127.0.0.1/-/94ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 1892
+hostname: ABOUTNB
+
+2021-09-08 02:27:55,419 ERROR 1892 [-/127.0.0.1/-/72ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 1892
+hostname: ABOUTNB
+
+2021-09-08 02:27:59,579 ERROR 1892 [-/127.0.0.1/-/68ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 1892
+hostname: ABOUTNB
+
+2021-09-08 02:28:06,557 ERROR 14008 [-/127.0.0.1/-/101ms POST /waresselect] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1
+    at Query.Sequence._packetToError (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (F:\egg\blackWhite\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (F:\egg\blackWhite\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:400:28)
+    at addChunk (internal/streams/readable.js:290:12)
+    --------------------
+    at Pool.query (F:\egg\blackWhite\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\blackWhite\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\blackWhite\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (F:\egg\blackWhite\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\blackWhite\node_modules\co\index.js:65:19)
+    at F:\egg\blackWhite\node_modules\co\index.js:54:5
+    sql: wares
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wares' at line 1"
+sqlState: "42000"
+index: 0
+sql: "wares"
+name: "ER_PARSE_ERRORError"
+pid: 14008
+hostname: ABOUTNB
+
